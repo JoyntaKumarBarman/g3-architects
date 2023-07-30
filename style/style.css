@@ -205,6 +205,10 @@
   width: calc(50% - 75px);
 }
 
+.feature-img img {
+  width: 100%;
+}
+
 .ten-year-button h3 {
   color: #FFF;
 text-align: center;
@@ -254,7 +258,7 @@ line-height: 40px;
 /* For small device */
 @media screen and (max-width: 640px) {
   .header {
-    padding: 50px 30px;
+    padding: 50px 10px;
   }
 
   .main {
